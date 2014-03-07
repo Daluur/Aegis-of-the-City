@@ -26,14 +26,18 @@ Special attacks
 
 Different enemies
 
+Win
+
+Lose
+
+GUI
+
 Next:
 Sub goals
 
 Story line (game levels)
 
-Win
-
-Lose
+Menu screen
 
 Last:
 Items
