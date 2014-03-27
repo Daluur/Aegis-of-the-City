@@ -2,7 +2,9 @@
 using System.Collections;
 
 public class attack : MonoBehaviour {
-	GameObject player = new GameObject();
+	int timeofatk=18;
+
+
 
 	// Use this for initialization
 	void Start() {
@@ -11,12 +13,21 @@ public class attack : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+
 	if (Input.GetKeyDown(KeyCode.Space)) {
 
-			transform.position = player.transform.position;
-			renderer.enabled = true;
-		
-		
+			
+			timeofatk = 18;
+			if(timeofatk>0){
+				renderer.enabled = true;
+				transform.Rotate(0,0,20);
+
+			}
 		}
+	if(timeofatk<0)
+				renderer.enabled=false;
+		
+		timeofatk--;
 	}
 }
