@@ -2,15 +2,13 @@
 using System.Collections;
 
 public class Movement : MonoBehaviour {
-<<<<<<< HEAD
-
 	float x=0.0f;
 	float y=0.0f;
-=======
+
 	float xd=0.0f;
 	float yd=0.0f;
 	private Vector3 moveDirection;
->>>>>>> bd86c247f71b02e8bec10993081a6a5206487b8e
+
 	// Use this for initialization
 	void Start () {
 
