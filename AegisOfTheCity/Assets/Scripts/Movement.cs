@@ -2,9 +2,9 @@
 using System.Collections;
 
 public class Movement : MonoBehaviour {
+
 	float x=0.0f;
 	float y=0.0f;
-	float z=0.0f;
 	// Use this for initialization
 	void Start () {
 	
