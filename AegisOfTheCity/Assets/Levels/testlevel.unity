@@ -163,6 +163,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1391518500}
   - 212: {fileID: 1391518501}
+  - 114: {fileID: 1391518502}
   m_Layer: 0
   m_Name: wep
   m_TagString: Untagged
@@ -204,6 +205,17 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300000, guid: a8e2e7c8c8b5ae342b7fb16656075d8a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1391518502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1391518499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efcc026b24e32f64899046461aa99abd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1449681767
 GameObject:
   m_ObjectHideFlags: 0
@@ -241,8 +253,13 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_SortingLayer: 1
   m_SortingOrder: 1
+=======
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+>>>>>>> 636e6eb7566fe9ed158f123f0460742ba3b5ec8f
   m_SortingLayerID: 1381922143
   m_Sprite: {fileID: 21300000, guid: b04f4939f19355d4199332efe92733b4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -322,7 +339,7 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_SortingLayerID: 1381922143
   m_Sprite: {fileID: 21300000, guid: aec99567de1b4754386175509b807618, type: 3}
