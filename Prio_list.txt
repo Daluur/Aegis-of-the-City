@@ -1,3 +1,5 @@
+MATHIAS ER EN KÆMPE NUB
+
 Most important:
 Movement
 
@@ -6,6 +8,8 @@ Enemies
 Health on hero
 
 Health on enemies
+
+
 
 Next:
 Combat
@@ -31,6 +35,8 @@ Win
 Lose
 
 GUI
+
+Graphic
 
 Next:
 Sub goals
