@@ -2,9 +2,6 @@
 using System.Collections;
 
 public class Movement : MonoBehaviour {
-	float x=0.0f;
-	float y=0.0f;
-
 	float xd=0.0f;
 	float yd=0.0f;
 	private Vector3 moveDirection;
@@ -31,7 +28,7 @@ public class Movement : MonoBehaviour {
 			xd = -1.0f;
 		}
 
-		moveDirection = new Vector3(xd,yd,0).normalized;
+		moveDirection = new Vector2(xd,yd).normalized;
 
 		transform.position += moveDirection;
 	}
