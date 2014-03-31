@@ -21,12 +21,14 @@ public class attack : MonoBehaviour {
 			timeofatk = 18;
 			if(timeofatk>0){
 				renderer.enabled = true;
-				transform.Rotate(0,0,20);
+			iTween.RotateTo(gameObject,new Vector3(0.0f,0.0f,180.0f),0.6f);
 
 			}
 		}
-	if(timeofatk<0)
-				renderer.enabled=false;
+	if (timeofatk < 0) {
+						renderer.enabled = false;
+			transform.rotation =  Quaternion.identity;
+				}
 		
 		timeofatk--;
 	}
