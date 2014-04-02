@@ -388,6 +388,7 @@ GameObject:
   - 4: {fileID: 1072569227}
   - 212: {fileID: 1072569226}
   - 114: {fileID: 1072569225}
+  - 50: {fileID: 1072569228}
   m_Layer: 0
   m_Name: player
   m_TagString: Untagged
@@ -401,11 +402,12 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1072569224}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 97e6732643eb81842ac867340a46b90c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: {x: 12, y: 12}
 --- !u!212 &1072569226
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -440,6 +442,21 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1242120671}
+--- !u!50 &1072569228
+Rigidbody2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1072569224}
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: .0500000007
+  m_GravityScale: 0
+  m_FixedAngle: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
 --- !u!1 &1242120670
 GameObject:
   m_ObjectHideFlags: 0
@@ -480,6 +497,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97e6732643eb81842ac867340a46b90c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: {x: 12, y: 12}
 --- !u!1 &1885655030
 GameObject:
   m_ObjectHideFlags: 0
