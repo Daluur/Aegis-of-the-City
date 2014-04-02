@@ -16,16 +16,16 @@ public class Movement : MonoBehaviour {
 		yd = 0;
 		xd = 0;
 		if (Input.GetKey("w")) {
-			yd = 1.0f;
+			yd = 0.01f; //1.0f
 		}
 		if (Input.GetKey("d")) {
-			xd = 1.0f;
+			xd = 0.01f;//1.0f
 		}
 		if (Input.GetKey("s")) {
-			yd = -1.0f;
+			yd = -0.01f;//1.0f
 		}
 		if (Input.GetKey("a")) {
-			xd = -1.0f;
+			xd = -0.01f;//1.0f
 		}
 
 		moveDirection = new Vector2(xd,yd).normalized;
