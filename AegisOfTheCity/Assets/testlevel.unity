@@ -120,7 +120,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 560396447}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .195914268, y: -.0809736252, z: 0}
+  m_LocalPosition: {x: .19401145, y: -.0809736252, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 591232385}
   - 212: {fileID: 591232384}
+  - 61: {fileID: 591232386}
   m_Layer: 0
   m_Name: Box
   m_TagString: Untagged
@@ -174,6 +175,17 @@ Transform:
   m_LocalScale: {x: .879725575, y: .879725575, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!61 &591232386
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 591232383}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .5, y: .5}
+  m_Center: {x: 0, y: 0}
 --- !u!1 &707502760
 GameObject:
   m_ObjectHideFlags: 0
@@ -389,6 +401,7 @@ GameObject:
   - 212: {fileID: 1072569226}
   - 114: {fileID: 1072569225}
   - 50: {fileID: 1072569228}
+  - 61: {fileID: 1072569229}
   m_Layer: 0
   m_Name: player
   m_TagString: Untagged
@@ -407,7 +420,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97e6732643eb81842ac867340a46b90c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: {x: 12, y: 12}
+  speed: {x: 5, y: 5}
 --- !u!212 &1072569226
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -453,11 +466,22 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: .0500000007
   m_GravityScale: 0
-  m_FixedAngle: 0
-  m_IsKinematic: 1
+  m_FixedAngle: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
+--- !u!61 &1072569229
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1072569224}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .5, y: .5}
+  m_Center: {x: 0, y: 0}
 --- !u!1 &1885655030
 GameObject:
   m_ObjectHideFlags: 0
@@ -530,7 +554,6 @@ GameObject:
   - 4: {fileID: 2009557384}
   - 212: {fileID: 2009557386}
   - 114: {fileID: 2009557385}
-  - 114: {fileID: 2009557387}
   m_Layer: 0
   m_Name: wep
   m_TagString: Untagged
@@ -583,14 +606,3 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300000, guid: a8e2e7c8c8b5ae342b7fb16656075d8a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
---- !u!114 &2009557387
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2009557383}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a185c55d6123d34db6527b3a325b59b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
