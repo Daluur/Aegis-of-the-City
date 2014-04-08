@@ -1,5 +1,5 @@
 Most important:
-Movement
+Movement - DONE
 
 Enemies
 
@@ -12,7 +12,7 @@ Health on enemies
 Next:
 Combat
 
-Kill enemy
+Kill enemy - DONE
 
 Player death
 
