@@ -19,7 +19,7 @@ public class attack : MonoBehaviour {
 	void Update () {
 
 	//	wepstartPos = transform.position;
-		playernewPos = GameObject.Find ("player").transform.position;
+		playernewPos = GameObject.Find ("Player").transform.position;
 
 		mouse_pos = Input.mousePosition;
 		mouse_pos.z = -10.0f + 0.06835938f; //The distance between the camera and object

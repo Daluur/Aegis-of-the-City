@@ -17,10 +17,14 @@ public class Enemyhit : MonoBehaviour {
 
 
 		if(gameObject.renderer.bounds.Intersects(GameObject.Find("wep").renderer.bounds)&&GameObject.Find("wep").renderer.enabled==true){
-			//This is where damage will happen!!!
+			//This is where player damage to enemy will happen!!!
 			Destroy(gameObject);
 
 		}
+
+		if (gameObject.renderer.bounds.Intersects (GameObject.Find ("Player").renderer.bounds))
+			//this is where enemy hits player actions will happen
+			Debug.Log ("Player has been hit and is injured!!!!!");
 	
 	}
 }
