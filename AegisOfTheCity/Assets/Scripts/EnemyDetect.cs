@@ -8,6 +8,7 @@ public class EnemyDetect : MonoBehaviour {
 	private float dirX;
 	private float dirY;
 	private Vector2 player;
+	private float speed = 0.5f;
 	
 	
 	// Use this for initialization
@@ -18,15 +19,13 @@ public class EnemyDetect : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (detected == true) {
-			print ("yes");
 			player = GameObject.FindWithTag ("Player").transform.position;
 			dirX = (player.x - transform.position.x);
 			dirY = (player.y - transform.position.x);
 			dir = new Vector2 (dirX,dirY);
 			
-			rigidbody2D.velocity = dir;
+			rigidbody2D.velocity = (dir * speed);
 		} else {
-			print ("no");
 			rigidbody2D.Sleep();
 		}
 		
@@ -41,4 +40,8 @@ public class EnemyDetect : MonoBehaviour {
 			detected = true;
 		}
 	}
+
+	void stopMove(){
+		detected = false;
+		}
 }
