@@ -49,4 +49,10 @@ if (timeofatk < 0) {
 		
 		timeofatk--;
 	}
+
+	void OnTriggerEnter2D(Collider2D coll){
+		if (coll.gameObject.tag == "Enemy" && gameObject.renderer.enabled == true) {
+			coll.gameObject.SendMessage ("takeDmg",2);
+				}
+	}
 }
