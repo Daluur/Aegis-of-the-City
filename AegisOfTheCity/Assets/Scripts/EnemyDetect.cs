@@ -21,7 +21,7 @@ public class EnemyDetect : MonoBehaviour {
 		if (detected == true) {
 			player = GameObject.FindWithTag ("Player").transform.position;
 			dirX = (player.x - transform.position.x);
-			dirY = (player.y - transform.position.x);
+			dirY = (player.y - transform.position.y);
 			dir = new Vector2 (dirX,dirY);
 			
 			rigidbody2D.velocity = (dir * speed);
