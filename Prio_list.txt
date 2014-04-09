@@ -1,49 +1,20 @@
-Most important:
-Movement - DONE
-
-Enemies
-
-Health on hero
-
-Health on enemies
-
+======Most important======
+- More enemy types
+- Menu Screen
+- End game screen
+- Additional levels
+- Item pickups (health, weapons)
+- Sound
 
 
-Next:
-Combat
-
-Kill enemy - DONE
-
-Player death
-
-Environment
+======2nd-most important======
+- GUI (map-level, kills, health, weapon)
+- Storyline
+- Monster drops (health etc.)
 
 
-Next:
-Enemy AI (Done, for first enemy type)
 
-Levels	
-
-Special attacks
-
-Different enemies
-
-Win
-
-Lose
-
-GUI
-
-Graphic
-
-Next:
-Sub goals
-
-Story line (game levels)
-
-Menu screen
-
-Last:
-Items
-
-Drops
+======3rd-most important======
+- Special attacks
+- Side quests
+- Player levels
