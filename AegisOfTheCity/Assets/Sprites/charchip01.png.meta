@@ -20,10 +20,10 @@ TextureImporter:
   grayScaleToAlpha: 0
   generateCubemap: 0
   seamlessCubemap: 0
-  textureFormat: -1
+  textureFormat: -3
   maxTextureSize: 2048
   textureSettings:
-    filterMode: -1
+    filterMode: 0
     aniso: 1
     mipBias: -1
     wrapMode: 1
@@ -48,613 +48,865 @@ TextureImporter:
     - name: charchip01_0
       rect:
         serializedVersion: 2
-        x: 2
+        x: 0
         y: 224
-        width: 29
-        height: 31
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_1
       rect:
         serializedVersion: 2
-        x: 33
-        y: 0
-        width: 31
-        height: 256
+        x: 32
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_2
       rect:
         serializedVersion: 2
-        x: 66
+        x: 64
         y: 224
-        width: 29
-        height: 31
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_3
       rect:
         serializedVersion: 2
-        x: 98
+        x: 96
         y: 224
-        width: 29
-        height: 31
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_4
       rect:
         serializedVersion: 2
-        x: 129
-        y: 0
-        width: 31
-        height: 256
+        x: 128
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_5
       rect:
         serializedVersion: 2
-        x: 162
+        x: 160
         y: 224
-        width: 29
-        height: 31
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_6
       rect:
         serializedVersion: 2
-        x: 194
+        x: 192
         y: 224
-        width: 29
-        height: 31
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_7
       rect:
         serializedVersion: 2
-        x: 225
-        y: 0
-        width: 31
-        height: 256
+        x: 224
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_8
       rect:
         serializedVersion: 2
-        x: 258
+        x: 256
         y: 224
-        width: 29
-        height: 31
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_9
       rect:
         serializedVersion: 2
-        x: 290
+        x: 288
         y: 224
-        width: 29
-        height: 31
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_10
       rect:
         serializedVersion: 2
-        x: 321
-        y: 0
-        width: 31
-        height: 256
+        x: 320
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_11
       rect:
         serializedVersion: 2
-        x: 354
+        x: 352
         y: 224
-        width: 29
-        height: 31
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_12
       rect:
         serializedVersion: 2
-        x: 6
+        x: 0
         y: 192
-        width: 25
-        height: 31
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_13
       rect:
         serializedVersion: 2
-        x: 70
+        x: 32
         y: 192
-        width: 25
-        height: 31
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_14
       rect:
         serializedVersion: 2
-        x: 101
+        x: 64
         y: 192
-        width: 26
-        height: 31
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_15
       rect:
         serializedVersion: 2
-        x: 165
+        x: 96
         y: 192
-        width: 26
-        height: 31
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_16
       rect:
         serializedVersion: 2
-        x: 194
+        x: 128
         y: 192
-        width: 29
-        height: 31
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_17
       rect:
         serializedVersion: 2
-        x: 258
+        x: 160
         y: 192
-        width: 29
-        height: 31
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_18
       rect:
         serializedVersion: 2
-        x: 292
+        x: 192
         y: 192
-        width: 27
-        height: 31
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_19
       rect:
         serializedVersion: 2
-        x: 356
+        x: 224
         y: 192
-        width: 27
-        height: 31
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_20
       rect:
         serializedVersion: 2
-        x: 1
-        y: 160
-        width: 25
-        height: 31
+        x: 256
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_21
       rect:
         serializedVersion: 2
-        x: 65
-        y: 160
-        width: 25
-        height: 31
+        x: 288
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_22
       rect:
         serializedVersion: 2
-        x: 97
-        y: 160
-        width: 26
-        height: 31
+        x: 320
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_23
       rect:
         serializedVersion: 2
-        x: 161
-        y: 160
-        width: 26
-        height: 31
+        x: 352
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_24
       rect:
         serializedVersion: 2
-        x: 193
+        x: 0
         y: 160
-        width: 29
-        height: 31
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_25
       rect:
         serializedVersion: 2
-        x: 257
+        x: 32
         y: 160
-        width: 29
-        height: 31
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_26
       rect:
         serializedVersion: 2
-        x: 289
+        x: 64
         y: 160
-        width: 27
-        height: 31
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_27
       rect:
         serializedVersion: 2
-        x: 353
+        x: 96
         y: 160
-        width: 27
-        height: 31
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_28
       rect:
         serializedVersion: 2
-        x: 1
-        y: 128
-        width: 31
-        height: 31
+        x: 128
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_29
       rect:
         serializedVersion: 2
-        x: 65
-        y: 128
-        width: 31
-        height: 31
+        x: 160
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_30
       rect:
         serializedVersion: 2
-        x: 97
-        y: 128
-        width: 31
-        height: 31
+        x: 192
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_31
       rect:
         serializedVersion: 2
-        x: 161
-        y: 128
-        width: 31
-        height: 31
+        x: 224
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_32
       rect:
         serializedVersion: 2
-        x: 193
-        y: 128
-        width: 31
-        height: 31
+        x: 256
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_33
       rect:
         serializedVersion: 2
-        x: 257
-        y: 128
-        width: 31
-        height: 31
+        x: 288
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_34
       rect:
         serializedVersion: 2
-        x: 289
-        y: 128
-        width: 31
-        height: 31
+        x: 320
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_35
       rect:
         serializedVersion: 2
-        x: 353
-        y: 128
-        width: 31
-        height: 31
+        x: 352
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_36
       rect:
         serializedVersion: 2
-        x: 2
-        y: 96
-        width: 29
-        height: 31
+        x: 0
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_37
       rect:
         serializedVersion: 2
-        x: 66
-        y: 96
-        width: 29
-        height: 31
+        x: 32
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_38
       rect:
         serializedVersion: 2
-        x: 98
-        y: 96
-        width: 29
-        height: 31
+        x: 64
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_39
       rect:
         serializedVersion: 2
-        x: 161
-        y: 96
-        width: 31
-        height: 31
+        x: 96
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_40
       rect:
         serializedVersion: 2
-        x: 193
-        y: 96
-        width: 31
-        height: 31
+        x: 128
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_41
       rect:
         serializedVersion: 2
-        x: 257
-        y: 96
-        width: 31
-        height: 31
+        x: 160
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_42
       rect:
         serializedVersion: 2
-        x: 289
-        y: 96
-        width: 31
-        height: 31
+        x: 192
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_43
       rect:
         serializedVersion: 2
-        x: 353
-        y: 96
-        width: 31
-        height: 31
+        x: 224
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_44
       rect:
         serializedVersion: 2
-        x: 5
-        y: 64
-        width: 26
-        height: 31
+        x: 256
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_45
       rect:
         serializedVersion: 2
-        x: 69
-        y: 64
-        width: 26
-        height: 31
+        x: 288
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_46
       rect:
         serializedVersion: 2
-        x: 99
-        y: 64
-        width: 28
-        height: 31
+        x: 320
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_47
       rect:
         serializedVersion: 2
-        x: 163
-        y: 64
-        width: 28
-        height: 31
+        x: 352
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_48
       rect:
         serializedVersion: 2
-        x: 197
-        y: 64
-        width: 26
-        height: 31
+        x: 0
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_49
       rect:
         serializedVersion: 2
-        x: 261
-        y: 64
-        width: 26
-        height: 31
+        x: 32
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_50
       rect:
         serializedVersion: 2
-        x: 293
-        y: 64
-        width: 26
-        height: 31
+        x: 64
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_51
       rect:
         serializedVersion: 2
-        x: 357
-        y: 64
-        width: 26
-        height: 31
+        x: 96
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_52
       rect:
         serializedVersion: 2
-        x: 1
-        y: 32
-        width: 25
-        height: 31
+        x: 128
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_53
       rect:
         serializedVersion: 2
-        x: 65
-        y: 32
-        width: 25
-        height: 31
+        x: 160
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_54
       rect:
         serializedVersion: 2
-        x: 97
-        y: 32
-        width: 28
-        height: 31
+        x: 192
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_55
       rect:
         serializedVersion: 2
-        x: 161
-        y: 32
-        width: 28
-        height: 31
+        x: 224
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_56
       rect:
         serializedVersion: 2
-        x: 193
-        y: 32
-        width: 26
-        height: 31
+        x: 256
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_57
       rect:
         serializedVersion: 2
-        x: 257
-        y: 32
-        width: 26
-        height: 31
+        x: 288
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_58
       rect:
         serializedVersion: 2
-        x: 289
-        y: 32
-        width: 26
-        height: 31
+        x: 320
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_59
       rect:
         serializedVersion: 2
-        x: 353
-        y: 32
-        width: 26
-        height: 31
+        x: 352
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_60
       rect:
         serializedVersion: 2
-        x: 1
-        y: 0
-        width: 31
-        height: 31
+        x: 0
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_61
       rect:
         serializedVersion: 2
-        x: 65
-        y: 0
-        width: 31
-        height: 31
+        x: 32
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_62
       rect:
         serializedVersion: 2
-        x: 97
-        y: 0
-        width: 31
-        height: 31
+        x: 64
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_63
       rect:
         serializedVersion: 2
-        x: 161
-        y: 0
-        width: 31
-        height: 31
+        x: 96
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_64
       rect:
         serializedVersion: 2
-        x: 193
-        y: 0
-        width: 31
-        height: 31
+        x: 128
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_65
       rect:
         serializedVersion: 2
-        x: 257
-        y: 0
-        width: 31
-        height: 31
+        x: 160
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_66
       rect:
         serializedVersion: 2
-        x: 289
-        y: 0
-        width: 31
-        height: 31
+        x: 192
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
     - name: charchip01_67
       rect:
         serializedVersion: 2
-        x: 353
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: charchip01_68
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: charchip01_69
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: charchip01_70
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: charchip01_71
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: charchip01_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: charchip01_73
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: charchip01_74
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: charchip01_75
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: charchip01_76
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: charchip01_77
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: charchip01_78
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: charchip01_79
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: charchip01_80
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: charchip01_81
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: charchip01_82
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: charchip01_83
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: charchip01_84
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 0
-        width: 31
-        height: 31
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: charchip01_85
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: charchip01_86
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: charchip01_87
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: charchip01_88
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: charchip01_89
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: charchip01_90
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: charchip01_91
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: charchip01_92
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: charchip01_93
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: charchip01_94
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: charchip01_95
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
   spritePackingTag: 

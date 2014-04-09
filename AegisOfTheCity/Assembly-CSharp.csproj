@@ -49,7 +49,6 @@
      <Compile Include="Assets\Scripts\EnemyDetect.cs" />
      <Compile Include="Assets\Scripts\EnemyRetreat.cs" />
      <Compile Include="Assets\Scripts\Enemyhit.cs" />
-     <Compile Include="Assets\Scripts\Hej.cs" />
      <Compile Include="Assets\Scripts\Movement.cs" />
      <Compile Include="Assets\Scripts\attack.cs" />
      <Compile Include="Assets\Scripts\iTween.cs" />

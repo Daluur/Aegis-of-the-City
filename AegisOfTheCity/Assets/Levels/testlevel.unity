@@ -336,12 +336,17 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: b817e8b97a5b1484f841b06af2d22c33, type: 2}
       propertyPath: speed.x
-      value: 12
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: b817e8b97a5b1484f841b06af2d22c33, type: 2}
       propertyPath: speed.y
-      value: 12
+      value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 21200000, guid: b817e8b97a5b1484f841b06af2d22c33, type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300002, guid: c10377aecd74bbe44a462dd48c27b8dc,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b817e8b97a5b1484f841b06af2d22c33, type: 2}
   m_RootGameObject: {fileID: 1681317561}
@@ -697,6 +702,8 @@ GameObject:
   - 58: {fileID: 120261004}
   - 61: {fileID: 120261003}
   - 114: {fileID: 120261002}
+  - 95: {fileID: 120261010}
+  - 95: {fileID: 120261009}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -804,6 +811,35 @@ Transform:
   m_Children:
   - {fileID: 2030788673}
   m_Father: {fileID: 0}
+--- !u!95 &120261009
+Animator:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 120261001}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: febe4e610f4cd7a42b1c226e29cceebc, type: 2}
+  m_CullingMode: 0
+  m_ApplyRootMotion: 0
+  m_AnimatePhysics: 1
+  m_HasTransformHierarchy: 1
+--- !u!95 &120261010
+Animator:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9500000, guid: 39849a7374eb19b4a9606e7f592d0829,
+    type: 2}
+  m_PrefabInternal: {fileID: 1252462439}
+  m_GameObject: {fileID: 120261001}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: febe4e610f4cd7a42b1c226e29cceebc, type: 2}
+  m_CullingMode: 0
+  m_ApplyRootMotion: 1
+  m_AnimatePhysics: 0
+  m_HasTransformHierarchy: 1
 --- !u!1 &129913606
 GameObject:
   m_ObjectHideFlags: 0
@@ -1946,6 +1982,7 @@ GameObject:
   - 58: {fileID: 350796775}
   - 61: {fileID: 350796774}
   - 114: {fileID: 350796773}
+  - 95: {fileID: 350796780}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -2053,6 +2090,21 @@ Transform:
   m_Children:
   - {fileID: 801767814}
   m_Father: {fileID: 0}
+--- !u!95 &350796780
+Animator:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9500000, guid: 39849a7374eb19b4a9606e7f592d0829,
+    type: 2}
+  m_PrefabInternal: {fileID: 634640717}
+  m_GameObject: {fileID: 350796772}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: febe4e610f4cd7a42b1c226e29cceebc, type: 2}
+  m_CullingMode: 0
+  m_ApplyRootMotion: 1
+  m_AnimatePhysics: 0
+  m_HasTransformHierarchy: 1
 --- !u!1001 &361260705
 Prefab:
   m_ObjectHideFlags: 0
@@ -3592,6 +3644,7 @@ GameObject:
   - 58: {fileID: 793002565}
   - 61: {fileID: 793002564}
   - 114: {fileID: 793002563}
+  - 95: {fileID: 793002570}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -3699,6 +3752,21 @@ Transform:
   m_Children:
   - {fileID: 2124610518}
   m_Father: {fileID: 0}
+--- !u!95 &793002570
+Animator:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9500000, guid: 39849a7374eb19b4a9606e7f592d0829,
+    type: 2}
+  m_PrefabInternal: {fileID: 331461916}
+  m_GameObject: {fileID: 793002562}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: febe4e610f4cd7a42b1c226e29cceebc, type: 2}
+  m_CullingMode: 0
+  m_ApplyRootMotion: 1
+  m_AnimatePhysics: 0
+  m_HasTransformHierarchy: 1
 --- !u!1 &793477957
 GameObject:
   m_ObjectHideFlags: 0
@@ -3877,6 +3945,7 @@ GameObject:
   - 58: {fileID: 826091577}
   - 61: {fileID: 826091576}
   - 114: {fileID: 826091575}
+  - 95: {fileID: 826091581}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -3984,6 +4053,21 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300000, guid: 70ee094250ba37f40adf013b2c8f2ea6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!95 &826091581
+Animator:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9500000, guid: 39849a7374eb19b4a9606e7f592d0829,
+    type: 2}
+  m_PrefabInternal: {fileID: 218737411}
+  m_GameObject: {fileID: 826091573}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: febe4e610f4cd7a42b1c226e29cceebc, type: 2}
+  m_CullingMode: 0
+  m_ApplyRootMotion: 1
+  m_AnimatePhysics: 0
+  m_HasTransformHierarchy: 1
 --- !u!1 &829665360
 GameObject:
   m_ObjectHideFlags: 0
@@ -4242,7 +4326,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 881512643}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .0199489594, y: .0523661375, z: -20}
+  m_LocalPosition: {x: 0, y: 0, z: -20}
   m_LocalScale: {x: .5, y: .5, z: 1}
   m_Children: []
   m_Father: {fileID: 1681317566}
@@ -8336,6 +8420,7 @@ GameObject:
   - 114: {fileID: 1681317564}
   - 50: {fileID: 1681317563}
   - 61: {fileID: 1681317562}
+  - 95: {fileID: 1681317567}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -8383,7 +8468,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97e6732643eb81842ac867340a46b90c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: {x: 12, y: 12}
+  speed: {x: 5, y: 5}
 --- !u!212 &1681317565
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8406,7 +8491,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_SortingLayerID: 0
-  m_Sprite: {fileID: 21300136, guid: c10377aecd74bbe44a462dd48c27b8dc, type: 3}
+  m_Sprite: {fileID: 21300002, guid: c10377aecd74bbe44a462dd48c27b8dc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &1681317566
 Transform:
@@ -8421,6 +8506,20 @@ Transform:
   - {fileID: 1683335787}
   - {fileID: 881512644}
   m_Father: {fileID: 0}
+--- !u!95 &1681317567
+Animator:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1681317561}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5366a7eef62d1104988162abdc3e0804, type: 2}
+  m_CullingMode: 0
+  m_ApplyRootMotion: 0
+  m_AnimatePhysics: 1
+  m_HasTransformHierarchy: 1
 --- !u!1 &1683335786
 GameObject:
   m_ObjectHideFlags: 0

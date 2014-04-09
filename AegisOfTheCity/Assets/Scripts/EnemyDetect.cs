@@ -9,11 +9,11 @@ public class EnemyDetect : MonoBehaviour {
 	private float dirY;
 	private Vector2 player;
 	private float speed = 0.5f;
+	private Animator animator;
 	
-	
-	// Use this for initialization
-	void Start () {
-		
+	void Start()
+	{
+		animator = GetComponent<Animator>();
 	}
 	
 	// Update is called once per frame
@@ -23,12 +23,20 @@ public class EnemyDetect : MonoBehaviour {
 			dirX = (player.x - transform.position.x);
 			dirY = (player.y - transform.position.y);
 			dir = new Vector2 (dirX,dirY);
+
 			
 			rigidbody2D.velocity = (dir * speed);
 		} else {
 			rigidbody2D.Sleep();
 		}
-		
+		if (dirX != 0 || dirY != 0) {
+			animator.SetBool ("moving", true);
+		} 
+		else {
+			animator.SetBool("moving", false);
+		}
+		animator.SetFloat ("X", dirX);
+		animator.SetFloat ("Y", dirY);
 	}
 	
 	void FixedUpdate(){
