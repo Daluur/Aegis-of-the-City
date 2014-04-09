@@ -20,9 +20,9 @@ Environment
 
 
 Next:
-Enemy AI
+Enemy AI (Done, for first enemy type)
 
-Levels
+Levels	
 
 Special attacks
 
