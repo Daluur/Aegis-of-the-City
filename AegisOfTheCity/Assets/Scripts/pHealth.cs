@@ -14,7 +14,7 @@ public class pHealth : MonoBehaviour {
 	void Update () {
 
 		if (health <= 0) {
-			print ("you died");
+			Application.LoadLevel(2);
 				}
 	
 	}

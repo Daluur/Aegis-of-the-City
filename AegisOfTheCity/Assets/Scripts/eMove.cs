@@ -26,7 +26,7 @@ public class eMove : MonoBehaviour {
 			dirX = (player.x - transform.position.x);
 			dirY = (player.y - transform.position.y);
 			dir = new Vector2 (dirX,dirY);
-			
+			speed +=0.005f;
 			rigidbody2D.velocity = (dir * speed);
 		} else {
 			rigidbody2D.Sleep();

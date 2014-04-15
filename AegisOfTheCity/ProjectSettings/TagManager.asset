@@ -44,6 +44,14 @@ TagManager:
     userID: 1
     uniqueID: 2699203421
     locked: 1
+  - name: Props
+    userID: 2
+    uniqueID: 3517470991
+    locked: 0
+  - name: Enemy
+    userID: 3
+    uniqueID: 4291964347
+    locked: 0
   - name: Default
     userID: 0
     uniqueID: 0
