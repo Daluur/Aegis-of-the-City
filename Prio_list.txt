@@ -1,16 +1,14 @@
 ======Most important======
-- More enemy types
-- Menu Screen
-- End game screen
 - Additional levels
 - Item pickups (health, weapons)
 - Sound
+- Healthbars
+- GUI (map-level, kills, health, weapon)
 
 
 ======2nd-most important======
-- GUI (map-level, kills, health, weapon)
-- Storyline
 - Monster drops (health etc.)
+- Bosses/Minibosses
 
 
 
@@ -18,3 +16,4 @@
 - Special attacks
 - Side quests
 - Player levels
+- Storyline

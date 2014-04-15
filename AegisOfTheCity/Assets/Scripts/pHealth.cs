@@ -21,5 +21,6 @@ public class pHealth : MonoBehaviour {
 
 	void takeDmg (int str) {
 		health -= str;
+		print (health);
 	}
 }
