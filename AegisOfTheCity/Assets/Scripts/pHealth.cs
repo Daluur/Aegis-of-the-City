@@ -3,7 +3,7 @@ using System.Collections;
 
 public class pHealth : MonoBehaviour {
 
-	private int health = 5;
+	private int health = 95;
 
 	// Use this for initialization
 	void Start () {
@@ -21,6 +21,9 @@ public class pHealth : MonoBehaviour {
 
 	void takeDmg (int str) {
 		health -= str;
+		if(health > 100){
+			health = 100;
+		}
 		print (health);
 	}
 }
