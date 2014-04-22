@@ -3,7 +3,7 @@ using System.Collections;
 
 public class eHealth : MonoBehaviour {
 	
-	public static int health = 3;
+	public int health = 3;
 	
 	// Use this for initialization
 	void Start () {
@@ -22,6 +22,7 @@ public class eHealth : MonoBehaviour {
 	
 	void takeDmg (int str) {
 		health -= str;
+		print ("takes dmg");
 		GameObject.Find ("HealthbarHealth").SendMessage ("adjustHPBar", str);
 	}
 
