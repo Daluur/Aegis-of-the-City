@@ -23,6 +23,7 @@ public class eHealth : MonoBehaviour {
 	void takeDmg (int str) {
 		health -= str;
 		print ("takes dmg");
+		//Adjusts the size of the healthbar of the enemy, according to the amount of damage it has taken.
 		GameObject.Find ("HealthbarHealth").SendMessage ("adjustHPBar", str);
 	}
 
