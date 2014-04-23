@@ -33,7 +33,8 @@ public class eRangedAttack : MonoBehaviour {
 	}
 
 	void RangedAttack(){
-
+		//calls the appropriate sound fromt he dSound object
+		GameObject.Find("deathSound").SendMessage ("playSound", 5);
 		GameObject newFireball = Instantiate(Fireball,transform.position,Fireball.transform.rotation) as GameObject;
 		newFireball.SendMessage ("movedirection", dir.normalized);
 		gameObject.SendMessage ("moves", dir.normalized);

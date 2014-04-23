@@ -64,10 +64,10 @@ public class attack : MonoBehaviour {
 	if (Input.GetMouseButtonDown(0)&&timeofatk<1) {
 			//The length of the attack, which is 3/4 of one second in this case
 			timeofatk = 18;
-			//When the attack is ongoing, the renderer is enabled, which allows us to see the weapon
+			//When the attack is ongoing, the renderer is enabled, which allows us to see the weapon and a swing soundclip is played.
 			if(timeofatk>0){
 				renderer.enabled = true;
-
+				transform.audio.Play();
 				//Rotation around the player, so that the weapon will point at the direction of the mouse
 				transform.RotateAround(playerPos,new Vector3(0.0f,0.0f,20.0f),angle-45);
 			}
@@ -87,12 +87,13 @@ if (timeofatk < 0) {
 						timeofatk = -1;
 	}
 	/// <summary>
-	/// Checks if ongoing attack has collision with an enemy, if it does it sends a damage message to the enemy.
+	/// Checks if ongoing attack has collision with an enemy, if it does it sends a damage message to the enemy and plays a soundclip.
 	/// </summary>
 	/// <param name="coll">Coll.</param>
 	void OnTriggerEnter2D(Collider2D coll){
 		if (coll.gameObject.tag == "Enemy" && gameObject.renderer.enabled == true) {
 			coll.gameObject.SendMessage ("takeDmg",dmg);
+			transform.parent.audio.Play();
 				}
 	}
 	/// <summary>

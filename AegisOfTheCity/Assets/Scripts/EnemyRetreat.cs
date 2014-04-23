@@ -13,6 +13,7 @@ public class EnemyRetreat : MonoBehaviour {
 	
 	}
 
+	//when the player object exits the collision trigger the function sends a call to stop movement of the enemy
 	void OnTriggerExit2D (Collider2D coll) {
 		if (coll.gameObject.tag == "Player") {
 			transform.root.gameObject.SendMessage ("stopMove");

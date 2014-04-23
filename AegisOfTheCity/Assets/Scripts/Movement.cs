@@ -2,7 +2,8 @@
 using System.Collections;
 
 public class Movement : MonoBehaviour {
-	
+
+	//variables to hold the speed, the movement and the animation
 	public Vector2 speed = new Vector2(12, 12);
 	private Vector2 movement;
 	private Animator animator;
@@ -14,6 +15,7 @@ public class Movement : MonoBehaviour {
 
 	void Update()
 	{
+		//gets input from the keyboard, WASD or arrow keys
 		float inputX = Input.GetAxis("Horizontal");
 		float inputY = Input.GetAxis("Vertical");
 		animator.SetFloat ("speedX", inputX);
@@ -36,7 +38,7 @@ public class Movement : MonoBehaviour {
 
 
 	}
-
+	//sets rigibody velocity to the movement variables values
 	void FixedUpdate(){
 		rigidbody2D.velocity = movement;
 	}

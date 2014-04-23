@@ -17,6 +17,7 @@ public class eRangedpayerinrange : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D other){
 		if (other.gameObject.tag == "Player") {
+			audio.Play ();
 			plPosition.x = other.transform.position.x;
 			plPosition.y = other.transform.position.y;
 			transform.root.gameObject.SendMessage("playerInRange", plPosition);
