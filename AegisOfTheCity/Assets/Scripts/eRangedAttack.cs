@@ -30,6 +30,7 @@ public class eRangedAttack : MonoBehaviour {
 	void playerNotInRange(){
 		playerIsInRange = false;
 		CancelInvoke ();
+		rigidbody2D.Sleep();
 	}
 
 	void RangedAttack(){

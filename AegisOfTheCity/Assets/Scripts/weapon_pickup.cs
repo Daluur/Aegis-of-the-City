@@ -12,6 +12,12 @@ public class weapon_pickup : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		if (PlayerPrefs.HasKey ("wep")) {
+			nextWep = PlayerPrefs.GetInt("wep");
+		}
+		else{
+			nextWep = 0;
+		}
 		renderer = transform.GetComponent<SpriteRenderer>();
 		renderer.sprite = (Sprite)Weapons [nextWep];
 	}
@@ -26,7 +32,6 @@ public class weapon_pickup : MonoBehaviour {
 			//sends the sound identifier to the dSound object
 			GameObject.Find("deathSound").SendMessage ("playSound", eType);
 			coll.SendMessage("weaponUpgrade", Weapons[nextWep]);
-			Debug.Log ("works :)");
 			Destroy(gameObject);
 		}
 	}

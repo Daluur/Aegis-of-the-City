@@ -3,7 +3,8 @@ using System.Collections;
 
 public class pHealth : MonoBehaviour {
 	//the players health
-	private int health = 95;
+	private int health = 100;
+	private int Kills = 0;
 
 	// Use this for initialization
 	void Start () {
@@ -14,7 +15,7 @@ public class pHealth : MonoBehaviour {
 	void Update () {
 		//if the player dies, goto gameover screen
 		if (health <= 0) {
-			Application.LoadLevel(2);
+			Application.LoadLevel("Lose");
 				}
 	
 	}
@@ -27,4 +28,19 @@ public class pHealth : MonoBehaviour {
 		}
 		print (health);
 	}
+
+	void killedEnemy(){
+		Kills++;
+		print (Kills);
+	}
+
+	void saveVars(){
+		PlayerPrefs.SetInt ("kills", Kills);
+		PlayerPrefs.Save ();
+	}
+
+	void loadVars(){
+		Kills = PlayerPrefs.GetInt ("kills");
+	}
+
 }

@@ -10,6 +10,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Levels/Level1.unity
   - enabled: 1
-    path: Assets/Levels/Lose.unity
+    path: Assets/Levels/Level2.unity
   - enabled: 1
     path: Assets/Levels/Win.unity
+  - enabled: 1
+    path: Assets/Levels/Lose.unity

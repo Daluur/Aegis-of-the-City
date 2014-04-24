@@ -105,6 +105,12 @@ if (timeofatk < 0) {
 	void weaponUpgrade(Sprite newWep){
 		dmg++;
 		renderer.sprite = (Sprite)newWep;
+		PlayerPrefs.SetInt ("wep", 3);
+		PlayerPrefs.Save ();
+	}
+
+	void loadVars(){
+		print (PlayerPrefs.GetInt("wep"));
 	}
 
 }

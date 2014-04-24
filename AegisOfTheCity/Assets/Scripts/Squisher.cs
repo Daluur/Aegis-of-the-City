@@ -24,7 +24,7 @@ public class Squisher : MonoBehaviour {
 	/// <param name="coll">Coll.</param>
 	void OnTriggerEnter2D (Collider2D coll){
 		if (coll.gameObject.tag == "Player")
-						InvokeRepeating ("squishDMG", 0.1f, 0.5f);
+			InvokeRepeating ("squishDMG", 0.1f, 0.5f);
 						
 
 	}
