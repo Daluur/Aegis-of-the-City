@@ -9,6 +9,8 @@ public class eHealth : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
+		//Initializes the healthbars for the enemies.
+		gameObject.BroadcastMessage("maxHP", health);
 	}
 	
 	// Update is called once per frame
