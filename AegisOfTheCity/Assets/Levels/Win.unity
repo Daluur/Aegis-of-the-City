@@ -305,6 +305,7 @@ GameObject:
   - 4: {fileID: 1427962143}
   - 212: {fileID: 1427962142}
   - 114: {fileID: 1427962141}
+  - 61: {fileID: 1427962144}
   m_Layer: 0
   m_Name: startbutton
   m_TagString: Untagged
@@ -357,6 +358,17 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!61 &1427962144
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1427962140}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Size: {x: 4.42000008, y: .889999986}
+  m_Center: {x: 0, y: 0}
 --- !u!1 &1490496144
 GameObject:
   m_ObjectHideFlags: 0
@@ -367,6 +379,7 @@ GameObject:
   - 4: {fileID: 1490496147}
   - 212: {fileID: 1490496146}
   - 114: {fileID: 1490496145}
+  - 61: {fileID: 1490496148}
   m_Layer: 0
   m_Name: Quitbutton
   m_TagString: Untagged
@@ -415,10 +428,21 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1490496144}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.00312004238, y: -.579225481, z: -.400000006}
+  m_LocalPosition: {x: -.0271391645, y: -.579225481, z: -.400000006}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!61 &1490496148
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1490496144}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Size: {x: 4.42000008, y: .889999986}
+  m_Center: {x: 0, y: 0}
 --- !u!1 &1938902250
 GameObject:
   m_ObjectHideFlags: 0

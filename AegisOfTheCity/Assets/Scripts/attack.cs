@@ -73,6 +73,7 @@ public class attack : MonoBehaviour {
 			}
 
 		}
+//This sets the renderer to false, when the attack has finished, and resets the position of the weapon, to the start position
 if (timeofatk < 0) {
 			renderer.enabled = false;
 			transform.position = new Vector3(playerPos.x,playerPos.y,playerPos.z);
@@ -87,12 +88,13 @@ if (timeofatk < 0) {
 						timeofatk = -1;
 	}
 	/// <summary>
-	/// Checks if ongoing attack has collision with an enemy, if it does it sends a damage message to the enemy and plays a soundclip.
+	/// Checks if ongoing attack has collision with an enemy, if it does it sends a damage message to the enemy, plays a soundclip, and adjusts the health bar.
 	/// </summary>
 	/// <param name="coll">Coll.</param>
 	void OnTriggerEnter2D(Collider2D coll){
 		if (coll.gameObject.tag == "Enemy" && gameObject.renderer.enabled == true) {
 			coll.gameObject.SendMessage ("takeDmg",dmg);
+			coll.gameObject.transform.FindChild("HealthbarHealth").SendMessage("adjustHPBar",dmg);
 			transform.parent.audio.Play();
 				}
 	}
