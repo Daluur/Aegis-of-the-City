@@ -6,7 +6,7 @@ public class eHealthBar : MonoBehaviour {
 
 	// This script will make a GUITexture follow a transform.
 	
-	public Transform target;
+
 
 
 	void Update ()
@@ -14,7 +14,7 @@ public class eHealthBar : MonoBehaviour {
 	{
 
 		//The position of the object which the GUITexture should follow.
-		var wantedPos = Camera.main.WorldToViewportPoint (target.position);
+		var wantedPos = Camera.main.WorldToViewportPoint (transform.parent.position);
 		//Transforms the position of the GUITexture so that it will follow the object it is attached to.
 		transform.position = wantedPos;
 
