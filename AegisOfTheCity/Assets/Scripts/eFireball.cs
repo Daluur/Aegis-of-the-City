@@ -8,7 +8,7 @@ public class eFireball : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		print ("fireball!");
+
 	}
 	
 	// Update is called once per frame
@@ -21,7 +21,7 @@ public class eFireball : MonoBehaviour {
 			other.SendMessage("takeDmg", dmg);
 			Destroy (gameObject);
 		} 
-		else if(other.transform.root.gameObject.tag == "Enemy" || other.gameObject.name == "wep"){
+		else if(other.transform.root.gameObject.tag == "Enemy" || other.gameObject.name == "wep" || other.gameObject.tag =="GameController"){
 
 		}
 		else {

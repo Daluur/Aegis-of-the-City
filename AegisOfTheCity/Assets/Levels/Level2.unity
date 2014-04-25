@@ -269,6 +269,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35f2798edd5d7844a69bd8400143d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthorz: 0
+  sizeofhealthbar: .0114000002
+  oneDMGonTheHealthbar: 0
 --- !u!131 &6360855
 GUITexture:
   m_ObjectHideFlags: 0
@@ -329,6 +332,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35f2798edd5d7844a69bd8400143d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthorz: 0
+  sizeofhealthbar: .0114000002
+  oneDMGonTheHealthbar: 0
 --- !u!131 &7409245
 GUITexture:
   m_ObjectHideFlags: 0
@@ -1303,6 +1309,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35f2798edd5d7844a69bd8400143d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthorz: 0
+  sizeofhealthbar: .0114000002
+  oneDMGonTheHealthbar: 0
 --- !u!131 &26151026
 GUITexture:
   m_ObjectHideFlags: 0
@@ -4196,6 +4205,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35f2798edd5d7844a69bd8400143d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthorz: 0
+  sizeofhealthbar: .0114000002
+  oneDMGonTheHealthbar: 0
 --- !u!131 &89736771
 GUITexture:
   m_ObjectHideFlags: 0
@@ -4795,6 +4807,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35f2798edd5d7844a69bd8400143d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthorz: 0
+  sizeofhealthbar: .0114000002
+  oneDMGonTheHealthbar: 0
 --- !u!131 &98556364
 GUITexture:
   m_ObjectHideFlags: 0
@@ -7265,6 +7280,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35f2798edd5d7844a69bd8400143d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthorz: 0
+  sizeofhealthbar: .0114000002
+  oneDMGonTheHealthbar: 0
 --- !u!131 &146438862
 GUITexture:
   m_ObjectHideFlags: 0
@@ -8760,6 +8778,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35f2798edd5d7844a69bd8400143d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthorz: 0
+  sizeofhealthbar: .0114000002
+  oneDMGonTheHealthbar: 0
 --- !u!131 &198041950
 GUITexture:
   m_ObjectHideFlags: 0
@@ -9619,6 +9640,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35f2798edd5d7844a69bd8400143d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthorz: 0
+  sizeofhealthbar: .0114000002
+  oneDMGonTheHealthbar: 0
 --- !u!131 &231162287
 GUITexture:
   m_ObjectHideFlags: 0
@@ -14500,6 +14524,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35f2798edd5d7844a69bd8400143d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthorz: 0
+  sizeofhealthbar: .0114000002
+  oneDMGonTheHealthbar: 0
 --- !u!131 &368197059
 GUITexture:
   m_ObjectHideFlags: 0
@@ -14601,6 +14628,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35f2798edd5d7844a69bd8400143d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthorz: 0
+  sizeofhealthbar: .0114000002
+  oneDMGonTheHealthbar: 0
 --- !u!131 &374568076
 GUITexture:
   m_ObjectHideFlags: 0
@@ -14879,6 +14909,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35f2798edd5d7844a69bd8400143d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthorz: 0
+  sizeofhealthbar: .0114000002
+  oneDMGonTheHealthbar: 0
 --- !u!131 &380888723
 GUITexture:
   m_ObjectHideFlags: 0
@@ -15531,7 +15564,7 @@ GameObject:
   - 114: {fileID: 402917908}
   m_Layer: 0
   m_Name: Healthpot
-  m_TagString: Untagged
+  m_TagString: GameController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16356,6 +16389,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35f2798edd5d7844a69bd8400143d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthorz: 0
+  sizeofhealthbar: .0114000002
+  oneDMGonTheHealthbar: 0
 --- !u!131 &425400892
 GUITexture:
   m_ObjectHideFlags: 0
@@ -16672,6 +16708,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35f2798edd5d7844a69bd8400143d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthorz: 0
+  sizeofhealthbar: .0114000002
+  oneDMGonTheHealthbar: 0
 --- !u!131 &431060930
 GUITexture:
   m_ObjectHideFlags: 0
@@ -17903,7 +17942,7 @@ BoxCollider2D:
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100000, guid: c6ff576521dcef6438b07ff3b834a2a2, type: 2}
-  m_PrefabInternal: {fileID: 1438864470}
+  m_PrefabInternal: {fileID: 1644853153}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 453641306}
@@ -17912,7 +17951,7 @@ GameObject:
   - 114: {fileID: 453641303}
   m_Layer: 0
   m_Name: Healthpot
-  m_TagString: Untagged
+  m_TagString: GameController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17922,7 +17961,7 @@ MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11400000, guid: c6ff576521dcef6438b07ff3b834a2a2,
     type: 2}
-  m_PrefabInternal: {fileID: 1438864470}
+  m_PrefabInternal: {fileID: 1644853153}
   m_GameObject: {fileID: 453641302}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -17935,7 +17974,7 @@ BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 6100000, guid: c6ff576521dcef6438b07ff3b834a2a2,
     type: 2}
-  m_PrefabInternal: {fileID: 1438864470}
+  m_PrefabInternal: {fileID: 1644853153}
   m_GameObject: {fileID: 453641302}
   m_Enabled: 1
   m_Material: {fileID: 0}
@@ -17947,7 +17986,7 @@ SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 21200000, guid: c6ff576521dcef6438b07ff3b834a2a2,
     type: 2}
-  m_PrefabInternal: {fileID: 1438864470}
+  m_PrefabInternal: {fileID: 1644853153}
   m_GameObject: {fileID: 453641302}
   m_Enabled: 1
   m_CastShadows: 0
@@ -17970,7 +18009,7 @@ SpriteRenderer:
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400000, guid: c6ff576521dcef6438b07ff3b834a2a2, type: 2}
-  m_PrefabInternal: {fileID: 1438864470}
+  m_PrefabInternal: {fileID: 1644853153}
   m_GameObject: {fileID: 453641302}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 64.2302246, y: 8.59236336, z: 0}
@@ -21597,6 +21636,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35f2798edd5d7844a69bd8400143d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthorz: 0
+  sizeofhealthbar: .0114000002
+  oneDMGonTheHealthbar: 0
 --- !u!131 &536054414
 GUITexture:
   m_ObjectHideFlags: 0
@@ -22020,6 +22062,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35f2798edd5d7844a69bd8400143d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthorz: 0
+  sizeofhealthbar: .0114000002
+  oneDMGonTheHealthbar: 0
 --- !u!131 &546870324
 GUITexture:
   m_ObjectHideFlags: 0
@@ -22080,6 +22125,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35f2798edd5d7844a69bd8400143d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthorz: 0
+  sizeofhealthbar: .0114000002
+  oneDMGonTheHealthbar: 0
 --- !u!131 &552091333
 GUITexture:
   m_ObjectHideFlags: 0
@@ -23497,7 +23545,7 @@ GameObject:
   - 114: {fileID: 593779629}
   m_Layer: 0
   m_Name: Healthpot
-  m_TagString: Untagged
+  m_TagString: GameController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23860,6 +23908,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35f2798edd5d7844a69bd8400143d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthorz: 0
+  sizeofhealthbar: .0114000002
+  oneDMGonTheHealthbar: 0
 --- !u!131 &609475111
 GUITexture:
   m_ObjectHideFlags: 0
@@ -23920,6 +23971,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35f2798edd5d7844a69bd8400143d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthorz: 0
+  sizeofhealthbar: .0114000002
+  oneDMGonTheHealthbar: 0
 --- !u!131 &611689423
 GUITexture:
   m_ObjectHideFlags: 0
@@ -25997,6 +26051,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35f2798edd5d7844a69bd8400143d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthorz: 0
+  sizeofhealthbar: .0114000002
+  oneDMGonTheHealthbar: 0
 --- !u!131 &654933692
 GUITexture:
   m_ObjectHideFlags: 0
@@ -27353,6 +27410,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35f2798edd5d7844a69bd8400143d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthorz: 0
+  sizeofhealthbar: .0114000002
+  oneDMGonTheHealthbar: 0
 --- !u!131 &696086009
 GUITexture:
   m_ObjectHideFlags: 0
@@ -33105,6 +33165,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35f2798edd5d7844a69bd8400143d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthorz: 0
+  sizeofhealthbar: .0114000002
+  oneDMGonTheHealthbar: 0
 --- !u!131 &855157096
 GUITexture:
   m_ObjectHideFlags: 0
@@ -34550,6 +34613,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35f2798edd5d7844a69bd8400143d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthorz: 0
+  sizeofhealthbar: .0114000002
+  oneDMGonTheHealthbar: 0
 --- !u!131 &919995336
 GUITexture:
   m_ObjectHideFlags: 0
@@ -38099,6 +38165,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35f2798edd5d7844a69bd8400143d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthorz: 0
+  sizeofhealthbar: .0114000002
+  oneDMGonTheHealthbar: 0
 --- !u!131 &1020749516
 GUITexture:
   m_ObjectHideFlags: 0
@@ -39366,7 +39435,7 @@ GameObject:
   - 114: {fileID: 1049009568}
   m_Layer: 0
   m_Name: Level_transition
-  m_TagString: Untagged
+  m_TagString: GameController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39573,6 +39642,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35f2798edd5d7844a69bd8400143d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthorz: 0
+  sizeofhealthbar: .0114000002
+  oneDMGonTheHealthbar: 0
 --- !u!131 &1052033606
 GUITexture:
   m_ObjectHideFlags: 0
@@ -39787,6 +39859,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35f2798edd5d7844a69bd8400143d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthorz: 0
+  sizeofhealthbar: .0114000002
+  oneDMGonTheHealthbar: 0
 --- !u!131 &1056640860
 GUITexture:
   m_ObjectHideFlags: 0
@@ -43116,6 +43191,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35f2798edd5d7844a69bd8400143d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthorz: 0
+  sizeofhealthbar: .0114000002
+  oneDMGonTheHealthbar: 0
 --- !u!131 &1141611840
 GUITexture:
   m_ObjectHideFlags: 0
@@ -44384,6 +44462,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35f2798edd5d7844a69bd8400143d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthorz: 0
+  sizeofhealthbar: .0114000002
+  oneDMGonTheHealthbar: 0
 --- !u!131 &1188567783
 GUITexture:
   m_ObjectHideFlags: 0
@@ -45865,6 +45946,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35f2798edd5d7844a69bd8400143d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthorz: 0
+  sizeofhealthbar: .0114000002
+  oneDMGonTheHealthbar: 0
 --- !u!131 &1218130234
 GUITexture:
   m_ObjectHideFlags: 0
@@ -46124,7 +46208,7 @@ GameObject:
   - 114: {fileID: 1233831876}
   m_Layer: 0
   m_Name: Healthpot
-  m_TagString: Untagged
+  m_TagString: GameController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46229,6 +46313,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35f2798edd5d7844a69bd8400143d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthorz: 0
+  sizeofhealthbar: .0114000002
+  oneDMGonTheHealthbar: 0
 --- !u!131 &1234212685
 GUITexture:
   m_ObjectHideFlags: 0
@@ -46657,6 +46744,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35f2798edd5d7844a69bd8400143d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthorz: 0
+  sizeofhealthbar: .0114000002
+  oneDMGonTheHealthbar: 0
 --- !u!131 &1239655249
 GUITexture:
   m_ObjectHideFlags: 0
@@ -47176,6 +47266,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35f2798edd5d7844a69bd8400143d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthorz: 0
+  sizeofhealthbar: .0114000002
+  oneDMGonTheHealthbar: 0
 --- !u!131 &1257476641
 GUITexture:
   m_ObjectHideFlags: 0
@@ -48379,6 +48472,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35f2798edd5d7844a69bd8400143d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthorz: 0
+  sizeofhealthbar: .0114000002
+  oneDMGonTheHealthbar: 0
 --- !u!131 &1292181589
 GUITexture:
   m_ObjectHideFlags: 0
@@ -50052,6 +50148,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35f2798edd5d7844a69bd8400143d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthorz: 0
+  sizeofhealthbar: .0114000002
+  oneDMGonTheHealthbar: 0
 --- !u!131 &1343455102
 GUITexture:
   m_ObjectHideFlags: 0
@@ -52067,6 +52166,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35f2798edd5d7844a69bd8400143d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthorz: 0
+  sizeofhealthbar: .0114000002
+  oneDMGonTheHealthbar: 0
 --- !u!131 &1389752703
 GUITexture:
   m_ObjectHideFlags: 0
@@ -52167,6 +52269,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35f2798edd5d7844a69bd8400143d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthorz: 0
+  sizeofhealthbar: .0114000002
+  oneDMGonTheHealthbar: 0
 --- !u!131 &1389877040
 GUITexture:
   m_ObjectHideFlags: 0
@@ -53970,46 +54075,6 @@ Prefab:
   m_RootGameObject: {fileID: 1353961701}
   m_IsPrefabParent: 0
   m_IsExploded: 1
---- !u!1001 &1438864470
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 400000, guid: c6ff576521dcef6438b07ff3b834a2a2, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 64.2302246
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: c6ff576521dcef6438b07ff3b834a2a2, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 8.59236336
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: c6ff576521dcef6438b07ff3b834a2a2, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: c6ff576521dcef6438b07ff3b834a2a2, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: c6ff576521dcef6438b07ff3b834a2a2, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: c6ff576521dcef6438b07ff3b834a2a2, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: c6ff576521dcef6438b07ff3b834a2a2, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: c6ff576521dcef6438b07ff3b834a2a2, type: 2}
-  m_RootGameObject: {fileID: 453641302}
-  m_IsPrefabParent: 0
-  m_IsExploded: 1
 --- !u!1 &1440044371
 GameObject:
   m_ObjectHideFlags: 0
@@ -55620,6 +55685,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35f2798edd5d7844a69bd8400143d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthorz: 0
+  sizeofhealthbar: .0114000002
+  oneDMGonTheHealthbar: 0
 --- !u!131 &1468787219
 GUITexture:
   m_ObjectHideFlags: 0
@@ -59153,6 +59221,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35f2798edd5d7844a69bd8400143d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthorz: 0
+  sizeofhealthbar: .0114000002
+  oneDMGonTheHealthbar: 0
 --- !u!131 &1558231712
 GUITexture:
   m_ObjectHideFlags: 0
@@ -59197,7 +59268,7 @@ GameObject:
   - 114: {fileID: 1560493345}
   m_Layer: 0
   m_Name: New_lvl_trans
-  m_TagString: Untagged
+  m_TagString: GameController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62251,6 +62322,46 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300014, guid: a8289e19a1cf14e4ca3797547f6f5da2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1001 &1644853153
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: c6ff576521dcef6438b07ff3b834a2a2, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 64.2302246
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c6ff576521dcef6438b07ff3b834a2a2, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 8.59236336
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c6ff576521dcef6438b07ff3b834a2a2, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c6ff576521dcef6438b07ff3b834a2a2, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c6ff576521dcef6438b07ff3b834a2a2, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c6ff576521dcef6438b07ff3b834a2a2, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c6ff576521dcef6438b07ff3b834a2a2, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: c6ff576521dcef6438b07ff3b834a2a2, type: 2}
+  m_RootGameObject: {fileID: 453641302}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &1646883215
 GameObject:
   m_ObjectHideFlags: 0
@@ -64138,6 +64249,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35f2798edd5d7844a69bd8400143d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthorz: 0
+  sizeofhealthbar: .0114000002
+  oneDMGonTheHealthbar: 0
 --- !u!131 &1707890290
 GUITexture:
   m_ObjectHideFlags: 0
@@ -65172,6 +65286,10 @@ Prefab:
     - target: {fileID: 100002, guid: 46b9971e87c1ce94981975bc9b2189a8, type: 2}
       propertyPath: m_Name
       value: Level_transition
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 46b9971e87c1ce94981975bc9b2189a8, type: 2}
+      propertyPath: m_TagString
+      value: GameController
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 46b9971e87c1ce94981975bc9b2189a8, type: 2}
@@ -67422,6 +67540,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35f2798edd5d7844a69bd8400143d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthorz: 0
+  sizeofhealthbar: .0114000002
+  oneDMGonTheHealthbar: 0
 --- !u!131 &1794290909
 GUITexture:
   m_ObjectHideFlags: 0
@@ -72749,6 +72870,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35f2798edd5d7844a69bd8400143d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthorz: 0
+  sizeofhealthbar: .0114000002
+  oneDMGonTheHealthbar: 0
 --- !u!131 &1941091886
 GUITexture:
   m_ObjectHideFlags: 0
@@ -72971,6 +73095,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35f2798edd5d7844a69bd8400143d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthorz: 0
+  sizeofhealthbar: .0114000002
+  oneDMGonTheHealthbar: 0
 --- !u!131 &1946839744
 GUITexture:
   m_ObjectHideFlags: 0
@@ -74690,6 +74817,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35f2798edd5d7844a69bd8400143d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthorz: 0
+  sizeofhealthbar: .0114000002
+  oneDMGonTheHealthbar: 0
 --- !u!131 &2001580485
 GUITexture:
   m_ObjectHideFlags: 0
@@ -75368,6 +75498,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35f2798edd5d7844a69bd8400143d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthorz: 0
+  sizeofhealthbar: .0114000002
+  oneDMGonTheHealthbar: 0
 --- !u!131 &2016292782
 GUITexture:
   m_ObjectHideFlags: 0
@@ -76725,6 +76858,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35f2798edd5d7844a69bd8400143d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthorz: 0
+  sizeofhealthbar: .0114000002
+  oneDMGonTheHealthbar: 0
 --- !u!131 &2061988639
 GUITexture:
   m_ObjectHideFlags: 0
@@ -78573,6 +78709,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35f2798edd5d7844a69bd8400143d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthorz: 0
+  sizeofhealthbar: .0114000002
+  oneDMGonTheHealthbar: 0
 --- !u!131 &2109037838
 GUITexture:
   m_ObjectHideFlags: 0
@@ -78788,6 +78927,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35f2798edd5d7844a69bd8400143d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthorz: 0
+  sizeofhealthbar: .0114000002
+  oneDMGonTheHealthbar: 0
 --- !u!131 &2118649530
 GUITexture:
   m_ObjectHideFlags: 0

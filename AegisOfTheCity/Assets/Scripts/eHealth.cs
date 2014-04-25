@@ -20,6 +20,7 @@ public class eHealth : MonoBehaviour {
 		if (health <= 0) {
 			print ("enemy died");
 			GameObject.Find("deathSound").SendMessage ("playSound", eType);
+			GameObject.Find("Player").SendMessage ("killedEnemy");
 			Destroy(gameObject);
 		}
 		

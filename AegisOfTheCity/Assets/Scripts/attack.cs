@@ -35,10 +35,14 @@ public class attack : MonoBehaviour {
 
 	// Use this for initialization
 	void Start() {
-
 		//Sets the weapon the player has equipped, to the weapon the player needs to attack with
 		renderer = transform.GetComponent<SpriteRenderer>();
-		renderer.sprite = (Sprite)Weapon[0];
+		if (PlayerPrefs.GetInt ("wep") == 0) {//loads the correct weapon
+			renderer.sprite = (Sprite)Weapon[0];
+		}
+		else{
+			renderer.sprite = (Sprite)Weapon[PlayerPrefs.GetInt ("wep") - 2];
+		}
 		//Sets the renderer to false, so we are not able to see the weapon
 		renderer.enabled = false;
 	}
@@ -105,12 +109,17 @@ if (timeofatk < 0) {
 	void weaponUpgrade(Sprite newWep){
 		dmg++;
 		renderer.sprite = (Sprite)newWep;
-		PlayerPrefs.SetInt ("wep", 3);
+		PlayerPrefs.SetInt ("wep", dmg);
 		PlayerPrefs.Save ();
 	}
 
 	void loadVars(){
-		print (PlayerPrefs.GetInt("wep"));
+		print ("hej");
+		int currwep = (PlayerPrefs.GetInt ("wep") - 2);
+		//renderer.sprite = (Sprite)Weapon[currwep];
+		print ("DMG: "+dmg);
+		dmg = PlayerPrefs.GetInt("wep");
+		print ("DMG: "+dmg);
 	}
 
 }

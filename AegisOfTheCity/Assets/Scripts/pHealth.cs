@@ -15,8 +15,9 @@ public class pHealth : MonoBehaviour {
 	void Update () {
 		//if the player dies, goto gameover screen
 		if (health <= 0) {
+			saveVars();
 			Application.LoadLevel("Lose");
-				}
+		}
 	
 	}
 	//the function is called by the weapons of the enemies

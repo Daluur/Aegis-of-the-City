@@ -11,7 +11,7 @@ GameObject:
   - 212: {fileID: 21200000}
   m_Layer: 0
   m_Name: BG_for_elevator
-  m_TagString: Untagged
+  m_TagString: GameController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28,7 +28,7 @@ GameObject:
   - 61: {fileID: 6100000}
   m_Layer: 0
   m_Name: New_lvl_trans
-  m_TagString: Untagged
+  m_TagString: GameController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -85,7 +85,7 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: -1
   m_SortingLayerID: 3517470991
   m_Sprite: {fileID: 21300000, guid: 6c49f9f77c3ae644a879f3d5fbcc993d, type: 3}
@@ -108,7 +108,7 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_SortingLayerID: 3517470991
   m_Sprite: {fileID: 21300026, guid: 9ca7a9b691519934696ec6e2c33c8f32, type: 3}

@@ -2,9 +2,10 @@
 using System.Collections;
 
 public class Score : MonoBehaviour {
-	public int score = 23243;
+	private int score;
 	// Use this for initialization
 	void Start () {
+		score = PlayerPrefs.GetInt ("kills");
 		guiText.text = "Score: " + score.ToString();
 	}
 	

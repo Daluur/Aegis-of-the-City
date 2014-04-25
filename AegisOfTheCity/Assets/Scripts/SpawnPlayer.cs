@@ -9,7 +9,7 @@ public class SpawnPlayer : MonoBehaviour {
 	void Start () {
 		GameObject Player = Instantiate(thePlayer,transform.position,thePlayer.transform.rotation) as GameObject;
 		Player.name = "Player";
-		Player.SendMessage ("loadVars");
+		Player.BroadcastMessage ("loadVars");
 	}
 	
 	// Update is called once per frame

@@ -12,8 +12,8 @@ public class weapon_pickup : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		if (PlayerPrefs.HasKey ("wep")) {
-			nextWep = PlayerPrefs.GetInt("wep");
+		if (PlayerPrefs.GetInt ("wep") > 0) { //makes sure it shows the correct weapon
+			nextWep = PlayerPrefs.GetInt("wep")-2;
 		}
 		else{
 			nextWep = 0;
