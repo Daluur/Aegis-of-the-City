@@ -13,8 +13,6 @@ public class LevelTransition : MonoBehaviour {
 	
 
 
-
-
 	}
 			//If the enemy has reached the transition spot on the map, it loads a new level.
 	void OnTriggerEnter2D (Collider2D coll){

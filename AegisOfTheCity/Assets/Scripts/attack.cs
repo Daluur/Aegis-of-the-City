@@ -39,6 +39,8 @@ public class attack : MonoBehaviour {
 		renderer = transform.GetComponent<SpriteRenderer>();
 		if (PlayerPrefs.GetInt ("wep") == 0) {//loads the correct weapon
 			renderer.sprite = (Sprite)Weapon[0];
+			PlayerPrefs.SetInt ("wep", dmg);
+			PlayerPrefs.Save ();
 		}
 		else{
 			renderer.sprite = (Sprite)Weapon[PlayerPrefs.GetInt ("wep") - 2];
@@ -78,19 +80,19 @@ public class attack : MonoBehaviour {
 
 		}
 //This sets the renderer to false, when the attack has finished, and resets the position of the weapon, to the start position
-if (timeofatk < 0) {
+		if (timeofatk < 0) {
 			renderer.enabled = false;
 			transform.position = new Vector3(playerPos.x,playerPos.y,playerPos.z);
 			transform.rotation =  Quaternion.identity;
-			}
+		}
 		
 		//To stop the attack
 		timeofatk--;
 
 		//This makes sure that timeofatk, can't go a whole loop, and start from the positive values
 		if (timeofatk < -10000)
-						timeofatk = -1;
-	}
+			timeofatk = -1;
+		}
 	/// <summary>
 	/// Checks if ongoing attack has collision with an enemy, if it does it sends a damage message to the enemy, plays a soundclip, and adjusts the health bar.
 	/// </summary>
@@ -100,7 +102,7 @@ if (timeofatk < 0) {
 			coll.gameObject.SendMessage ("takeDmg",dmg);
 			coll.gameObject.transform.FindChild("HealthbarHealth").SendMessage("adjustHPBar",dmg);
 			transform.parent.audio.Play();
-				}
+		}
 	}
 	/// <summary>
 	/// Upgrades the damage of the player when a new weapon is picked up.
