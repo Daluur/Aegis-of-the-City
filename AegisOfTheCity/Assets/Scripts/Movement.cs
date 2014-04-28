@@ -21,21 +21,18 @@ public class Movement : MonoBehaviour {
 		animator.SetFloat ("speedX", inputX);
 		animator.SetFloat ("speedY", inputY);
 
-		// 3 - Movement per direction
+		//Movement per direction
 		movement = new Vector2(
 			speed.x * inputX,
 			speed.y * inputY);
 
-
+		//checks to see if the enemy is moving, in order to make the animation, so he would not make a walking animation, while standing still
 		if (inputX != 0 || inputY != 0) {
 			animator.SetBool ("moving", true);
 		} 
 		else {
 			animator.SetBool("moving", false);
 		}
-		
-
-
 
 	}
 	//sets rigibody velocity to the movement variables values

@@ -67,19 +67,18 @@ public class attack : MonoBehaviour {
 
 
 		//Checks if a player has clicked the mouse button, and that there is no attack ongoing
-	if (Input.GetMouseButtonDown(0)&&timeofatk<1) {
-			//The length of the attack, which is 3/4 of one second in this case
-			timeofatk = 18;
-			//When the attack is ongoing, the renderer is enabled, which allows us to see the weapon and a swing soundclip is played.
-			if(timeofatk>0){
-				renderer.enabled = true;
-				transform.audio.Play();
-				//Rotation around the player, so that the weapon will point at the direction of the mouse
-				transform.RotateAround(playerPos,new Vector3(0.0f,0.0f,20.0f),angle-45);
-			}
-
+	    if (Input.GetMouseButtonDown(0)&&timeofatk<1) {
+			    //The length of the attack, which is 3/4 of one second in this case
+			    timeofatk = 18;
+			    //When the attack is ongoing, the renderer is enabled, which allows us to see the weapon and a swing soundclip is played.
+			    if(timeofatk>0){
+				    renderer.enabled = true;
+				    transform.audio.Play();
+				    //Rotation around the player, so that the weapon will point at the direction of the mouse
+				    transform.RotateAround(playerPos,new Vector3(0.0f,0.0f,20.0f),angle-45);
+			    }
 		}
-//This sets the renderer to false, when the attack has finished, and resets the position of the weapon, to the start position
+        //This sets the renderer to false, when the attack has finished, and resets the position of the weapon, to the start position
 		if (timeofatk < 0) {
 			renderer.enabled = false;
 			transform.position = new Vector3(playerPos.x,playerPos.y,playerPos.z);
@@ -109,19 +108,15 @@ public class attack : MonoBehaviour {
 	/// </summary>
 	/// <param name="newWep">New wep.</param>
 	void weaponUpgrade(Sprite newWep){
-		dmg++;
+		dmg++; 
 		renderer.sprite = (Sprite)newWep;
-		PlayerPrefs.SetInt ("wep", dmg);
+		PlayerPrefs.SetInt ("wep", dmg); //saves the damage value
 		PlayerPrefs.Save ();
 	}
 
-	void loadVars(){
-		print ("hej");
-		int currwep = (PlayerPrefs.GetInt ("wep") - 2);
-		//renderer.sprite = (Sprite)Weapon[currwep];
-		print ("DMG: "+dmg);
+	void loadVars(){ // loads the weapon, so you carry the weapon you picked up in earlier levels
+		int currwep = (PlayerPrefs.GetInt ("wep") - 2); //as you start with 2 dmg, it is -2
 		dmg = PlayerPrefs.GetInt("wep");
-		print ("DMG: "+dmg);
 	}
 
 }

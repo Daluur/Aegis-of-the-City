@@ -10,15 +10,6 @@ public class deathSounds : MonoBehaviour {
 	public AudioSource audio4;
 	public AudioSource audio5;
 
-	// Use this for initialization
-	void Start () {
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
-
 	//the incoming function-call receives an int which determines which death sound to be played
 	void playSound(int play){
 		if (play == 1)

@@ -8,12 +8,7 @@ public class SpawnPlayer : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		GameObject Player = Instantiate(thePlayer,transform.position,thePlayer.transform.rotation) as GameObject;
-		Player.name = "Player";
-		Player.BroadcastMessage ("loadVars");
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+		Player.name = "Player"; //renames the player, for easier identification
+		Player.BroadcastMessage ("loadVars"); //loads the score for the player, and the weapon for the wep
 	}
 }

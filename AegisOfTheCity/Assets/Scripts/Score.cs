@@ -6,11 +6,6 @@ public class Score : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		score = PlayerPrefs.GetInt ("kills");
-		guiText.text = "Score: " + score.ToString();
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+		guiText.text = "Score: " + score.ToString(); //writes the score on screen
 	}
 }
