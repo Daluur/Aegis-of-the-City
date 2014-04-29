@@ -6,6 +6,10 @@ public class pHealth : MonoBehaviour {
 	private int health = 100;
 	private int Kills = 0; //used as score
 
+	void Start(){
+		gameObject.BroadcastMessage("maxHP", health);
+	}
+
 	// Update is called once per frame
 	void Update () {
 		//if the player dies, goto gameover screen
@@ -18,6 +22,7 @@ public class pHealth : MonoBehaviour {
 	//it takes an damage int in and subtracts that number from the total health
 	void takeDmg (int str) {
 		health -= str;
+		gameObject.transform.FindChild("HealthbarHealth").SendMessage("adjustHPBar",str);
 		if(health > 100){ //makes you unable to get more health than 100, so if you get a healtpot at max health, it will not heal
 			health = 100;
 		}
