@@ -103,7 +103,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100004}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.84466839, y: -2.93948555, z: 0}
+  m_LocalPosition: {x: 14.4038019, y: -48.160553, z: 0}
   m_LocalScale: {x: 6, y: 6, z: 1}
   m_Children:
   - {fileID: 400002}
@@ -117,8 +117,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100006}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.7842598, y: 10.4719343, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 1}
+  m_LocalPosition: {x: -11.7204895, y: 10.4719343, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 400004}
 --- !u!50 &5000000
@@ -311,7 +311,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 3
-  dSound: {fileID: 100000, guid: 0e7bfcbe73a8ff248ae6d2a19f0149b0, type: 2}
   eType: 3
 --- !u!114 &11400002
 MonoBehaviour:
@@ -358,7 +357,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35f2798edd5d7844a69bd8400143d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 400004}
+  healthorz: 0
+  sizeofhealthbar: .0114000002
+  oneDMGonTheHealthbar: 0
 --- !u!131 &13100000
 GUITexture:
   m_ObjectHideFlags: 1

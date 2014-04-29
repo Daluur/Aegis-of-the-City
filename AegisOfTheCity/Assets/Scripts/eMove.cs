@@ -11,6 +11,7 @@ public class eMove : MonoBehaviour {
 	private Vector2 player;
 	private float speed = 0.5f;
 	private Animator animator;
+	private float squisherAddedSpeed=0.01f;
 	
 	// Use this for initialization
 	void Start () {
@@ -31,7 +32,7 @@ public class eMove : MonoBehaviour {
 			dir = new Vector2 (dirX,dirY);
 			//Adds more speed the longer the enemy Squisher follows the player.
 			if(gameObject.name == "Squisher")
-			speed +=0.010f;
+				speed +=squisherAddedSpeed;
 			rigidbody2D.velocity = (dir * speed);
 		} else {
 			//if the player isnt detected the rigidbody is motionless in sleep mode
