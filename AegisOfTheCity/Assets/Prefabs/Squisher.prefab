@@ -310,7 +310,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 217c63175e796c64daf38bacb806d759, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
+  health: 5
   eType: 3
 --- !u!114 &11400002
 MonoBehaviour:
@@ -323,7 +323,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b9e3583734572e4ba3adaaf6ef87530, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  squisherDMG: 1
+  squisherDMG: 5
 --- !u!114 &11400004
 MonoBehaviour:
   m_ObjectHideFlags: 1

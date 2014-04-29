@@ -3,7 +3,7 @@ using System.Collections;
 
 public class aoeAtk : MonoBehaviour {
 	// The amount of damage the attack does
-	public int eDmg = 2;
+	public int eDmg = 10;
 	
 	
 

@@ -7,6 +7,7 @@ public class pHealth : MonoBehaviour {
 	private int Kills = 0; //used as score
 
 	void Start(){
+		//Gives the healthbar players maxHP
 		gameObject.BroadcastMessage("maxHP", health);
 	}
 
@@ -20,6 +21,7 @@ public class pHealth : MonoBehaviour {
 	}
 	//the function is called by the weapons of the enemies
 	//it takes an damage int in and subtracts that number from the total health
+	//adjusts the Healthbar according to the damage received to the player
 	void takeDmg (int str) {
 		health -= str;
 		gameObject.transform.FindChild("HealthbarHealth").SendMessage("adjustHPBar",str);

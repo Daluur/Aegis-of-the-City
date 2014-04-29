@@ -3,7 +3,7 @@ using System.Collections;
 
 public class eHealth : MonoBehaviour {
 	//the amount of health the enemy has
-	public int health = 3;
+	public int health = 5;
 	//the integer identifier for each enemy type (set in editor)
 	public int eType;
 	

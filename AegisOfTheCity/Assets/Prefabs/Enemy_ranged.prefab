@@ -294,7 +294,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 217c63175e796c64daf38bacb806d759, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
+  health: 5
   eType: 2
 --- !u!114 &11400006
 MonoBehaviour:
@@ -318,6 +318,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35f2798edd5d7844a69bd8400143d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthorz: 0
+  sizeofhealthbar: .0114000002
+  oneDMGonTheHealthbar: 0
 --- !u!131 &13100000
 GUITexture:
   m_ObjectHideFlags: 1

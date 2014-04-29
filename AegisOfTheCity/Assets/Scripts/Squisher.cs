@@ -6,7 +6,7 @@ public class Squisher : MonoBehaviour {
 	/// <summary>
 	/// The Damage of the Squisher minion
 	/// </summary>
-	public int squisherDMG = 1;
+	public int squisherDMG = 5;
 
 
 	// Use this for initialization

@@ -3,7 +3,7 @@ using System.Collections;
 
 public class healthpickUp : MonoBehaviour {
 
-	public int healAmount = 5;
+	public int healAmount = 15;
 
 	void OnTriggerEnter2D(Collider2D coll){
 		if (coll.tag == "Player") {
