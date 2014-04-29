@@ -6,28 +6,16 @@ public class eAtk : MonoBehaviour {
 	public GameObject hellfire;
 	private GameObject hellclone;
 
-
-	// Use this for initialization
-	void Start () {
-
-	}
-	
-	// Update is called once per frame
-	void Update () {
-
-
-	}
-
 	//when the trigger collides with the player the doAtk function will be called repeatedly every 2 seconds
 	void OnTriggerEnter2D(Collider2D coll){
 		if (coll.gameObject.tag == "Player") {
 			InvokeRepeating("doAtk",0.1f,2);
-				}
+		}
 	}
 	//when the trigger exits the players collide range the repeating function is cancelled
 	void OnTriggerExit2D(Collider2D coll){
 		CancelInvoke ();
-		}
+	}
 
 	//instantiates a new gameobject of the hellfire type at the same position as the enemy currently is
 	void doAtk(){

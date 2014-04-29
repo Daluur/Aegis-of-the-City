@@ -3,17 +3,6 @@ using System.Collections;
 
 public class Menu : MonoBehaviour {
 
-
-
-	// Use this for initialization
-	void Start () {
-
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 	/// <summary>
 	/// What happens when mouse is pressed
 	/// </summary>
@@ -30,8 +19,6 @@ public class Menu : MonoBehaviour {
 		if (collider2D.gameObject.name == "Quitbutton") {
 			Debug.Log("I quit");
 			Application.Quit ();
-
-				}
+		}
 	}
-	
 }

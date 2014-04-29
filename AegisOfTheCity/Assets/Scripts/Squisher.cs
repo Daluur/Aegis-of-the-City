@@ -23,10 +23,9 @@ public class Squisher : MonoBehaviour {
 	/// </summary>
 	/// <param name="coll">Coll.</param>
 	void OnTriggerEnter2D (Collider2D coll){
-		if (coll.gameObject.tag == "Player")
+		if (coll.gameObject.tag == "Player"){
 			InvokeRepeating ("squishDMG", 0.1f, 0.5f);
-						
-
+		}			
 	}
 	/// <summary>
 	/// This function sends a message to the player, with the damage the player has received.
